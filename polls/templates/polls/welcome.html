@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tutorial 3.1</title>
+</head>
+<body>
+	<p>Please Notice That The Password Should Be Of 6-8 Characters In Length!</p>
+	<button onclick="c()">Change Your password</button>
+	<p id = "w"></p>
+	<p id = 'e'></p>
+	<script type="text/javascript">
+		function c() {
+			do{
+				var password = prompt("Enter a new password with 6-8 chars:");
+				var n = password.length;}
+			while(n < 6 || n > 8);
+				var passwords = prompt("Confirm your password again:");
+			    if (passwords == password){
+				    document.getElementById('w').innerHTML = "Your password has been changed successfully!";
+			    }
+			    else {
+				    document.getElementById('w').innerHTML = "Sorry, your password has not been changed.";
+			    }
+		}
+	</script>
+	<h1>睿宝 我希望你不要难受 也不要变 我真的一直都在这里 我的爱也在这里 你如果觉得什么不对 还是请和我说:-)</h1>
+	<h2>希望你不要生气 开开心心的 不要怀疑我 我现在这段时间确实有时候会很想多 想到自己的未来 但我相信都会过去</h2>
+	<h3>每天我们好好的一起进步好吗 我真的每天一睡觉就会想到你 走路的时候也是 现在也没有听歌了</h3>
+	<h4>我知道有时候我们确实没有沟通 但是这不重要 重要的是不能有对彼此的不信任感 不能麻木</h4>
+	<h5>王哥是这么想的 希望你也开开心心的 每天其实每次你发过来的消息的那一刻我就看到了 但是不一定会回 因为我有时候要想一下</h5>
+	<h6>见不到面确实很恐怖 我真的很想很想你 但是有一些事情我想等到一切我觉得变好了再好好的和你分享 希望你好！:-)</h6>
+</body>
+</html>
